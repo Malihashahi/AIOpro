@@ -1,7 +1,8 @@
+import matplotlib.pyplot as plt
 import numpy as np
 
-arr = np.array([1, 2, 3, 4, 5])
+x = np.array(["A", "B", "C", "D"])
+y = np.array([3, 8, 1, 10])
 
-print(arr)
-
-print(type(arr))
+plt.bar(x,y)
+plt.show()
